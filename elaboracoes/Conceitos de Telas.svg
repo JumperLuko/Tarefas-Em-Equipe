@@ -35,13 +35,13 @@
      inkscape:snap-nodes="true"
      inkscape:snap-others="false"
      inkscape:snap-page="true"
-     inkscape:zoom="0.64"
-     inkscape:cx="1045.0414"
-     inkscape:cy="242.32012"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="1603.5156"
+     inkscape:cy="579.84637"
      inkscape:window-x="70"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2"
+     inkscape:current-layer="g1729"
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-smooth-nodes="true"
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -666,6 +666,17 @@
            x="1196.2655"
            y="204.65028"
            style="font-size:15px;text-align:center;text-anchor:middle;stroke-width:2.27612662px">ItemX</tspan></text>
+      <text
+         id="text1644"
+         y="204.65028"
+         x="1196.2655"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:King;-inkscape-font-specification:King;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.27612662px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:15px;text-align:center;text-anchor:middle;stroke-width:2.27612662px"
+           y="204.65028"
+           x="1196.2655"
+           sodipodi:role="line"
+           id="tspan1642">ItemX</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:King;-inkscape-font-specification:King;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.27612662px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

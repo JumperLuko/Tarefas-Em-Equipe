@@ -1,4 +1,4 @@
-nav{
+nav.menu{
     background-color:#311947;
     color:#ffffff;
     height:50px;
@@ -8,30 +8,67 @@ nav{
         color:#c4c4c4;
     }
 }
-main.menuInicial{
-    height:calc(100vh - 50px);
-    grid-gap:5px;
-    >a{
-        background-color:#e2c2ff;
-        padding: 10%;
-        display:flex;
-        justify-content:center;
-        align-content: center;
-        align-items: center;
+header{
+    background-color:#c789ff;
+    width:100%;
+    > a.titlePage{
+        height: 70px;
+        color:inherit;
+        text-decoration:inherit;
     }
-    >a:hover{
+    > form{
+        min-height: 70px;
+        > *{
+            height:70px;
+            margin:0 20px;
+        }
+        > div {
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            text-align:center;
+            > *{
+                width:100%;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+        }
+    }
+}
+
+main.menuInicial{
+    min-height:calc(100vh - 50px);
+    grid-gap:10px;
+    padding:10px;
+    >div{
+        display:flex;
+        justify-content:stretch;
+        > a{
+            background-color:#e2c2ff;
+            display:flex;
+            justify-content:center;
+            align-content: center;
+            align-items: center;
+            width:100%;
+            padding:30px;
+            color:inherit;
+            text-decoration:inherit;
+        }
+    }
+    >div:hover > a{
         animation-name:hoverCube;
         animation-duration:0.5s;
         animation-fill-mode:both;
     }
     @media only screen and (min-width: 768px) {
-        >a.m1{grid-area:1 / 1 / 2 / 3;}
-        >a.m2{grid-area:1 / 3 / 2 / 5;}
-        >a.m3{grid-area:2 / 1 / 3 / 3;}
-        >a.m4{grid-area:2 / 3 / 3 / 5;}
-        >a.m5{grid-area:3 / 1 / 4 / 2;}
-        >a.m6{grid-area:3 / 2 / 4 / 3;}
-        >a.m7{grid-area:3 / 3 / 4 / 5;}
+        >div.m1{grid-area:1 / 1 / 2 / 3;}
+        >div.m2{grid-area:1 / 3 / 2 / 5;}
+        >div.m3{grid-area:2 / 1 / 3 / 3;}
+        >div.m4{grid-area:2 / 3 / 3 / 5;}
+        >div.m5{grid-area:3 / 1 / 4 / 2;}
+        >div.m6{grid-area:3 / 2 / 4 / 3;}
+        >div.m7{grid-area:3 / 3 / 4 / 5;}
     }
 }
 @keyframes hoverCube {
@@ -40,10 +77,30 @@ main.menuInicial{
     }
 
     25% {
-        transform: scale3d(0.95, 0.95, 0.95);
+        transform: scale3d(0.98, 0.98, 0.98);
     }
 
     to {
-        transform: scale3d(0.95, 0.95, 0.95);
+        transform: scale3d(0.98, 0.98, 0.98);
+    }
+}
+
+main.resultadoPesquisa{
+    overflow-x:auto;
+    background-color:#00000073;
+    grid-gap:1px;
+    > span{
+        height:40px;
+        background:#e2c2ff;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        > *{
+            padding:0 4px;
+        }
+    }
+    > span.ordenamento{
+        height:60px;
     }
 }
